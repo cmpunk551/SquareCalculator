@@ -21,7 +21,7 @@ namespace SquareСalculatorLibrary
             double sumOfOtherSides = (firstSide + secondSide + thirdSide) - longestSide;
             
             // проверка условия существования треугольника 
-            if (longestSide > sumOfOtherSides)
+            if (longestSide >= sumOfOtherSides)
             {
                 return 0;
             }
